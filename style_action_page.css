@@ -1,0 +1,62 @@
+@font-face { font-family: hero; src: url(../fonts/Hero/Hero-Regular.ttf); }
+
+@font-face { font-family: robo; src: url(../fonts/Roboto/Roboto-Regular.ttf); }
+
+@font-face { font-family: robot; src: url(../fonts/Roboto/Roboto-Thin.ttf); }
+
+body { background-color: #D9D9D9 !important; }
+
+body nav li { background-color: #343a40 !important; }
+
+body nav i { font-size: 1.5rem; }
+
+body nav i:hover { color: #838283; }
+
+.final_wrap { width: 90%; }
+
+.wrap { margin: auto; width: 80%; position: relative; -webkit-box-sizing: border-box; box-sizing: border-box; font-family: hero; }
+
+.wrap .t_fin table tr { font-size: 0.9rem !important; }
+
+.wrap .t_fin table tr th { font-size: 0.8rem !important; }
+
+.wrap .t_fin table td { font-size: 0.9rem !important; }
+
+.wrap .final-exitoso { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; margin-left: 1rem; margin-top: 1rem; margin-bottom: 1rem; }
+
+.wrap .final-exitoso span { font-size: 2rem; color: green; }
+
+.wrap .final-exitoso h4 { font-size: 2rem; margin-left: 1rem; }
+
+.wrap .final_error { display: -webkit-box; display: -ms-flexbox; display: flex; width: 50%; margin: auto; -webkit-box-align: baseline !important; -ms-flex-align: baseline !important; align-items: baseline !important; margin-top: 2rem; }
+
+.wrap .final_error a { color: white; text-decoration: none; }
+
+.wrap .final_error span { font-size: 2rem; color: red; margin-bottom: 2rem; }
+
+.wrap span { color: darkgray; }
+
+.jumbotron { background-color: #D9D9D9; }
+
+.collapsible { background-color: #ffa600; color: #262626; cursor: pointer; width: 100%; border: none; border-radius: 5px 5px 5px 5px; text-align: left; outline: none; }
+
+.active, .collapsible:hover { background-color: #262123; color: #D9D9D9; border-radius: 5px 5px 5px 5px; }
+
+.content { padding: 0 8px; display: none; overflow: hidden; background-color: #A6A6A6; border-radius: 3px 3px 3px 3px; margin-top: 2px; }
+
+.display-2 { color: #404040 !important; }
+
+/* Style the collapsible content. Note: hidden by default */
+.fa-concierge-bell { color: #404040; }
+
+table { color: #262626; margin-bottom: 10px; }
+
+tr { width: 400px; }
+
+h5 { color: #8C8C8C; }
+
+p { color: black; }
+
+td { width: 200px; color: #262626; }
+
+th { color: #262626; width: 200px; }

@@ -1,0 +1,173 @@
+// creado por charlypesc
+@font-face {
+  font-family: hero;
+  src: url(../fonts/Hero/Hero-Regular.ttf);
+}
+@font-face {
+  font-family: robo;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: robot;
+  src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+
+$bod:#D9D9D9;
+$collapse:#8C8C8C;
+$hovercollapse:#262123;
+$fonthovercollapse:#D9D9D9;
+$fontcollapse:#262626;
+$contentcollapse:#A6A6A6;
+	body{
+		background-color:$bod!important;
+		nav{
+			li{
+				background-color:#343a40!important;
+			}
+			i{
+				
+				font-size:1.5rem;
+				
+				&:hover{
+					color:#838283;
+				}
+				
+			}
+		}
+	}
+	.final_wrap{
+		width:90%;
+	}
+	.wrap{
+		margin:auto;
+		width: 80%;
+		position: relative;
+		box-sizing: border-box;
+		font-family: hero;
+	.t_fin{
+		table{
+			
+			tr{
+				font-size:0.9rem!important;
+				th{
+					font-size:0.8rem!important;
+				}
+			}
+			td{
+				font-size:0.9rem!important;
+			}
+		}
+	}
+	.final-exitoso{
+		display:flex;
+		align-items:baseline;
+		margin-left:1rem;
+		margin-top:1rem;
+		margin-bottom:1rem;
+		span{
+			
+			font-size:2rem;
+			color:green;
+			
+		}
+		h4{
+			font-size:2rem;
+			margin-left:1rem;
+		}
+	}
+	.final_error{
+		display:flex;
+		width:50%;
+		margin:auto;
+		align-items:baseline!important;
+		margin-top:2rem;
+		a{
+			color:white;
+			text-decoration:none;
+		}
+		span{
+			font-size:2rem;
+			color:red;
+			margin-bottom:2rem;
+		}
+	}	
+	span{
+		color:darkgray;
+	}	
+	}
+	.jumbotron{
+		background-color: $bod;
+		
+
+	}
+	.collapsible {
+	  background-color: rgb(255, 166, 0);
+	  color:$fontcollapse;
+	  cursor: pointer;
+	  //padding: 18px;
+	  width: 100%;	
+	  border: none;
+	  border-radius: 5px 5px 5px 5px;
+	  text-align: left;
+	  outline: none;
+	  
+	}
+	.active, .collapsible:hover {
+	  background-color:$hovercollapse;
+	  color: $fonthovercollapse;
+	  border-radius: 5px 5px 5px 5px;
+
+	}
+	.content {
+	  	padding: 0 8px;
+	  	display: none;
+	  	overflow: hidden;
+		background-color: $contentcollapse;
+		border-radius: 3px 3px 3px 3px;
+		margin-top: 2px;
+		
+
+	}
+	
+	.display-2{
+		color: #404040!important;
+	}
+
+
+	/* Style the collapsible content. Note: hidden by default */
+	//icon
+
+	.fa-concierge-bell {
+		//font-size: 30px;
+		color: #404040;
+	}
+	table{
+		
+		color:#262626;
+		margin-bottom: 10px;
+	}
+	tr{
+		width: 400px;
+	}
+
+	h3{
+		//color: #262626;
+	}
+	h5{
+		color:#8C8C8C;
+	}
+	p{
+		color:rgb(0, 0, 0) ;
+	}
+
+	td{
+		width: 200px;
+		color: #262626;
+
+	}
+	th{
+		color:$fontcollapse;
+		width: 200px;
+
+	}
+
